@@ -33,8 +33,50 @@
 <body>
   <div class="hero_area">
 
-  <?php include 'header.php'; ?>
-
+    <!-- header section strats -->
+    <header class="header_section">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <div class="custom_menu-btn">
+          <button onclick="openNav()">
+            <span class="s-1"> </span>
+            <span class="s-2"> </span>
+            <span class="s-3"> </span>
+          </button>
+        </div>
+        <div id="myNav" class="overlay">
+          <div class="menu_btn-style ">
+            <button onclick="closeNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+          </div>
+          <div class="overlay-content">
+            <a class="active" href="index.html">
+              Home
+            </a>
+            <a class="" href="about.php">
+              About
+            </a>
+            <a class="" href="portfolio.php">
+              Portfolio
+            </a>
+            <a class="" href="team.php">
+              Team
+            </a>
+          </div>
+        </div>
+        <a class="navbar-brand" href="index.html">
+          <span>
+            Photosec
+          </span>
+        </a>
+        <a href="" class="call_btn">
+          Call Us Now
+        </a>
+      </nav>
+    </header>
+    <!-- end header section -->
     <!-- slider section -->
     <section class="slider_section position-relative">
       <div class="container-fluid">
@@ -372,8 +414,37 @@
   </section>
   <!-- end contact section -->
 
-  <?php include 'footer.php'; ?>
-
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-6">
+          <p>
+            &copy; <span id="displayYear"></span> All Rights Reserved. Design
+            by
+            <a href="https://html.design/">DroidNest</a>
+          </p>
+        </div>
+        <div class="col-xl-6">
+          <div class="link_box">
+            <a class="" href="index.html">
+              Home
+            </a>
+            <a class="" href="about.php">
+              About
+            </a>
+            <a class="" href="portfolio.php">
+              Portfolio
+            </a>
+            <a class="" href="team.php">
+              Team
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">

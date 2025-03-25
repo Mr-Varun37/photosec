@@ -17,7 +17,7 @@
             </button>
           </div>
           <div class="overlay-content">
-            <a class="active" href="index.php">
+            <a class="active" href="index.html">
               Home
             </a>
             <a class="" href="about.php">
@@ -31,7 +31,7 @@
             </a>
           </div>
         </div>
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="index.html">
           <span>
             Photosec
           </span>

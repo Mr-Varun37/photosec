@@ -11,7 +11,7 @@
         </div>
         <div class="col-xl-6">
           <div class="link_box">
-            <a class="" href="index.php">
+            <a class="" href="index.html">
               Home
             </a>
             <a class="" href="about.php">
